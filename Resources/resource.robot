@@ -20,6 +20,7 @@ Action_For_Text_Fields
   scroll down  ${text_fields}
   sleep  1
   click element  ${text_fields}
+  sleep  1
   input text  ${default_textbox}  ${default}
   sleep  1
   input text  ${tinted_textbox}  ${tinted}
