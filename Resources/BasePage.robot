@@ -18,7 +18,8 @@ ${REMOTE_URL}   http://127.0.0.1:4723/wd/hub
 ${platformName}    iOS
 ${appium:platformVersion}    15.6
 ${appium:deviceName}    iPhone 11
-${appium:app}    /Users/qups/Library/Developer/Xcode/DerivedData/UICatalog-ejiokmvvhyiblpcfjtdcyyiledfg/Build/Products/Debug-iphoneos/UICatalog.app
+#${appium:app}    /Users/qups/Library/Developer/Xcode/DerivedData/UICatalog-ejiokmvvhyiblpcfjtdcyyiledfg/Build/Products/Debug-iphoneos/UICatalog.app
+${appium:app}    ${CURDIR}/../APP/UICatalog.app
 ${appium:automationName}    XCUITest
 ${appium:noReset}    true
 ${appium:udid}    00008030-001C25213A23C02E
